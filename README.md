@@ -18,3 +18,14 @@
 由此可知整個放大器的Gain
 
 ![IMG_0019](https://user-images.githubusercontent.com/68816726/187339683-92b241e6-8347-4097-b261-88213a71339c.png)
+
+## 頻率響應：
+
+小訊號模型中，用節點電壓法列出兩式
+
+![IMG_0022](https://user-images.githubusercontent.com/68816726/187341788-04704c69-fe47-46f0-a012-b31ac3c34991.png)
+
+整理可得
+
+![圖片](https://user-images.githubusercontent.com/68816726/187342481-2b78c1f2-92d4-436a-9664-c4453060e5d4.png)
+
