@@ -56,5 +56,9 @@
 ![圖片](https://user-images.githubusercontent.com/68816726/187345819-0904c95e-6fc5-4272-b056-13c503acfb37.png)
 
 
+### phase margin:
+
+定義:波德圖的增益曲線為 0dB 時，所對應的角度與-180度的相差角度稱為 phase margin
+
 
 
