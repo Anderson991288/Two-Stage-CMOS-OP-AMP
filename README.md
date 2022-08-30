@@ -29,3 +29,21 @@
 
 ![圖片](https://user-images.githubusercontent.com/68816726/187342481-2b78c1f2-92d4-436a-9664-c4453060e5d4.png)
 
+### 求Zero(讓分子多項式為0):
+
+![圖片](https://user-images.githubusercontent.com/68816726/187344391-ec82d6e8-cd7e-4bfb-a629-eb24b67029d3.png)
+
+### 求pole(讓分母多項式為0):
+分母的多項式可以寫成，分為s的一次項與二次項：
+
+![圖片](https://user-images.githubusercontent.com/68816726/187345019-5b37678d-8b1d-4d42-a3ef-51540ffa9220.png)
+
+先解第一個pole
+
+與上式比較可以列出
+![圖片](https://user-images.githubusercontent.com/68816726/187345258-124e2dd7-46bc-4c08-b405-aeae8bb72454.png)
+
+最後因為C1通常比Cc小很多所以可以省略
+
+
+
