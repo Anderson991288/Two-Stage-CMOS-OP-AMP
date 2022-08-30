@@ -60,5 +60,10 @@
 
 定義:波德圖的增益曲線為 0dB 時，所對應的角度與-180度的相差角度稱為 phase margin
 
+## Design of two stage op amp:
+
+
+![螢幕快照 2022-08-30 23-11-20](https://user-images.githubusercontent.com/68816726/187474323-ba4f0803-64c6-4da5-abcc-8488309f9fd7.png)
+
 
 
