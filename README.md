@@ -45,5 +45,10 @@
 
 最後因為C1通常比Cc小很多所以可以省略
 
+第二個pole
+
+![圖片](https://user-images.githubusercontent.com/68816726/187345819-0904c95e-6fc5-4272-b056-13c503acfb37.png)
+
+
 
 
