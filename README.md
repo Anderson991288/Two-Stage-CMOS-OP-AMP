@@ -81,7 +81,9 @@
   * 為了滿足 Cc > 0.22CL ，（CL = 1pF），所以 Cc 必須大於 220fF
   * slew rate 須達到 10V /|mus ，Cc 需為 10pf
   * 為達到上述兩個要求，我們選擇 Cc = 3pf 
-  2. 設計M1、M2 ：
+
+
+  2. 設計M4、M7 ：
   * gm1 = GBW × Cc × 2π ， GBW 就是 unity gain frequency （增益為1時的頻率）
   * GBW 設計目標為 100MHZ
   * gm1 = 100M HZ × 5pF × 2π = 302µ ， 為了方便我們取 510u 
@@ -91,8 +93,35 @@
   ![圖片](https://user-images.githubusercontent.com/68816726/187583731-45965395-395b-4cdc-b03a-a6d4a5edb398.png)
   * 最後，取 20 當作設計結果
   
-  3. 設計M3、M4 ：
-  * 
+  
+  3. 設計M5、M6 ：
+  * 為了達到輸出範圍大於800mV　，　至少需要　800mV　的共模輸入範圍在零點之前　（ｇａｉｎ　為１處）
+  
+  ![圖片](https://user-images.githubusercontent.com/68816726/187585193-65c4c939-9528-4714-8b84-32500667212b.png)
+
+　４. 設計M2、M3 ：
+  * 取適當的ICMR(-)以決定M5的大小
+  ![圖片](https://user-images.githubusercontent.com/68816726/187585942-26c4de46-a687-42d7-9853-f45a115abd57.png)
+  
+  5. 設計M8 ：
+  * 0.22gm2 > gm1 ， 所以 gm2 > 2318µ 
+  * VDS5 = VDS6 = VDS8 ， VGS5 = VGS6 = VGS8
+  ![圖片](https://user-images.githubusercontent.com/68816726/187586743-0559c54b-0148-4a4b-a8c0-5e3a06d2b850.png)
+  
+  6. 設計M9 ：
+  
+  ![圖片](https://user-images.githubusercontent.com/68816726/187587172-60e57228-f5a2-4d89-9de9-8878872974f5.png)
+  
+  7. 設計 Rz ：
+  * Rz = 1/gm2 = 5k
+  
+  8.共模、差模增益 ： 
+  * 檢查gain ， 調整計算出的參數以達到要求
+  
+  
+  
+
+　
   
   
   
