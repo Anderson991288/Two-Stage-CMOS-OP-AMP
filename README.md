@@ -65,5 +65,38 @@
 
 ![螢幕快照 2022-08-30 23-11-20](https://user-images.githubusercontent.com/68816726/187474323-ba4f0803-64c6-4da5-abcc-8488309f9fd7.png)
 
+### Design Principle:
 
+* 因為λ的關係，建議使用 L > 2Lmin ，所以用 L = 1u
+* 為了提昇OP的效能，我們會調整L的大小，但 W/L 保持不變 
 
+![圖片](https://user-images.githubusercontent.com/68816726/187581493-4089bcc0-a24e-4784-a60d-1db4d977677a.png)
+
+![圖片](https://user-images.githubusercontent.com/68816726/187581526-9d298f85-337e-447d-baf7-1804cd24fce0.png)
+
+* 接著計算補償電容與電阻的大小
+* 先設計第一級再設計第二級
+
+  1. 補償電容 ： 
+  * 為了滿足 Cc > 0.22CL ，（CL = 1pF），所以 Cc 必須大於 220fF
+  * slew rate 須達到 10V /|mus ，Cc 需為 10pf
+  * 為達到上述兩個要求，我們選擇 Cc = 3pf 
+  2. 設計M1、M2 ：
+  * gm1 = GBW × Cc × 2π ， GBW 就是 unity gain frequency （增益為1時的頻率）
+  * GBW 設計目標為 100MHZ
+  * gm1 = 100M HZ × 5pF × 2π = 302µ ， 為了方便我們取 510u 
+  
+  ![圖片](https://user-images.githubusercontent.com/68816726/187583432-a7398b3f-e65b-469e-b7a0-3cc803d35c4f.png)
+  
+  ![圖片](https://user-images.githubusercontent.com/68816726/187583731-45965395-395b-4cdc-b03a-a6d4a5edb398.png)
+  * 最後，取 20 當作設計結果
+  
+  3. 設計M3、M4 ：
+  * 
+  
+  
+  
+  
+  
+  
+  
